@@ -1,18 +1,14 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <mt-button type="default" size="large" class="mt-button">default</mt-button>
     <router-view/>
   </div>
 </template>
 
 <script>
-import { Button, Cell } from 'mint-ui'
 export default {
   name: 'App',
-  components: {
-    'mt-button': Button
-  }
+  components: {}
 }
 </script>
 
